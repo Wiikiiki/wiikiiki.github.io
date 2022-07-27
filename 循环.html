@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>青龙帮学习小组</title>
+  </head>
+  <body>
+    <script>
+      function judeg(a) {
+        if (a == "ydd" || a == "wiki" || a == 'lisa' || a == 'lsr' || a == 'yjy') {
+          return false;
+        } else {
+          return true;
+        }
+      }
+      do {
+        var result = prompt("what's your name?");
+        console.log("23", judeg(result));
+      } while (judeg(result));
+
+      alert("welcome " + result + "!");
+    </script>
+  </body>
+</html>
